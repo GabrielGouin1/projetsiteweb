@@ -9,6 +9,14 @@ body {
     margin:  235px;
     width: 800px;
     height: 500px;
+
+.carréprincipale2 {
+    border-style : solid;
+    border-color : black;
+    background-color: #303366;
+    margin:  50px;
+    width:  700px;
+    height: 400px;
 }
 .carrésecondaire {
     border-style : solid;
