@@ -1,9 +1,9 @@
 body {
-    color: purple;
+    color: #090C52;
     background-image: url("sddefault.jpg") 
 }
 p {
-    color: red;
+    color: #FFFFFF;
     border: solid;
     border-style: dashed double none;
     margin: 1em;
