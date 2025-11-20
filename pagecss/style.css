@@ -18,9 +18,37 @@ body {
     width:  700px;
     height: 400px;
 }
-.carrésecondaire {
+#carrésecondaire1 {
     border-style : solid;
     border-color : black;
-    width: 80px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
+}
+
+#carrésecondaire2 {
+    border-style : solid;
+    border-color : black;
+    width: 200px;
+    height: 100px;
+}
+
+#carrésecondaire3 {
+    border-style : solid;
+    border-color : black;
+    width: 200px;
+    height: 100px;
+}
+
+#carrésecondaire4 {
+    border-style : solid;
+    border-color : black;
+    width: 200px;
+    height: 100px;
+}
+
+.ensembleminicarré {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
