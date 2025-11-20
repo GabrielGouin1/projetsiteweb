@@ -18,37 +18,17 @@ body {
     width:  700px;
     height: 400px;
 }
-#carrésecondaire1 {
+
+.carrésecondaire {
     border-style : solid;
     border-color : black;
     width: 200px;
     height: 100px;
 }
 
-#carrésecondaire2 {
-    border-style : solid;
-    border-color : black;
-    width: 200px;
-    height: 100px;
-}
-
-#carrésecondaire3 {
-    border-style : solid;
-    border-color : black;
-    width: 200px;
-    height: 100px;
-}
-
-#carrésecondaire4 {
-    border-style : solid;
-    border-color : black;
-    width: 200px;
-    height: 100px;
-}
 
 .ensembleminicarré {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    gap:50px;
+    justify-content: center;
 }
