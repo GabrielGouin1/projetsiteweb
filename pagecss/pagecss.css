@@ -1,0 +1,25 @@
+body {
+    color: purple;
+    background-image: url("sddefault.jpg") 
+}
+p {
+    color: red;
+    border: solid;
+    border-style: dashed double none;
+    margin: 1em;
+}
+a:hover {
+  background-color: orange;
+  font-size: 180px;
+}
+form {
+    color: green;
+    border: solid;
+}
+.tuff {
+    border-style: dashed;
+    margin: 180px;
+}
+.twin {
+    color: blue;
+}
