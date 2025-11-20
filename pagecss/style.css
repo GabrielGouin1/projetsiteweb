@@ -1,9 +1,12 @@
 body {
     color: #090C52;
-    background-image: url("sddefault.jpg") 
+    background-color: #090C52; ;
 }
 
 .carréprincipale {
     border-style : solid;
     border-color : black;
-    margin: 180px;
+    margin:  235px;
+    width: 800px;
+    height: 500px;
+}
