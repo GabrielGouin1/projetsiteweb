@@ -89,10 +89,18 @@ img{
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: top;
     border-radius: 15px;
     border-width: thick;
     background-color: #303366;
+    position:relative;
+}
+
+.carrésecondaire p{
+    color: white;
+    font-size: 0.5em;
+    position:absolute;
+    top: 20px;
+    margin-left: 8px;
 }
 
 .carrésecondaire h2{
