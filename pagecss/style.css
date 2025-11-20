@@ -10,3 +10,9 @@ body {
     width: 800px;
     height: 500px;
 }
+.carrésecondaire {
+    border-style : solid;
+    border-color : black;
+    width: 80px;
+    height: 50px;
+}
