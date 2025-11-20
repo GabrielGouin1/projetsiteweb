@@ -24,7 +24,14 @@ body {
     border-color : black;
     width: 200px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    color: white;
+    font-size: 0.70em;
+    vertical-align: top;
 }
+
 
 
 .ensembleminicarré {
