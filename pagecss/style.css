@@ -18,6 +18,21 @@ body {
     width:  700px;
     height: 400px;
 }
+    
+p{
+    color: #FFFFFF;
+    text-align: center;
+    text: ;
+
+}
+
+img{
+    margin: -53px;
+    width: 800px;
+    height: 500px;
+    opacity:0.3;
+}
+    
 
 .carrésecondaire {
     border-style : solid;
