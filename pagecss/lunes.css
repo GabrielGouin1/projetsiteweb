@@ -51,9 +51,9 @@ main {
 
 /* Page principale */
 
-.carreMercure{
+.carreGanymede{
     border-style : solid;
-    background: linear-gradient(to bottom, #B9723F, #c94f04);
+    background: linear-gradient(to bottom, #766E69, #DCCEC4);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
@@ -61,39 +61,46 @@ main {
     position: absolute;
     top: 10vh;
     left: 20vh;
+}
 
-
-
-.carreVenus{
+.carreTitan{
     border-style : solid;
-    background: linear-gradient(to bottom, #DE9542, #785124);
+    background: linear-gradient(to bottom, #1EC843, #0F6221);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
     height:350px;
     position: absolute;
     left: 40vh;
+}
 
 
-.carreTerre{
+.carreCalisto{
     border-style : solid;
-    background: linear-gradient(to bottom, #3E70DB, #213C75);
+    background: linear-gradient(to bottom, #838DA1, #30333B);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
     height:350px;
     position: absolute;
     left: 40vh;
+}
 
-.carreMars{
+.carreIo{
     border-style : solid;
-    background: linear-gradient(to bottom, #F96F0C, #934107);
+    background: linear-gradient(to bottom, #CDA710, #675408);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
     height:350px;
     position: absolute;
     left: 40vh;
+}
+
+
+    
+    
+
 
 .carreLune{
     border-style : solid;
