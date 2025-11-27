@@ -51,16 +51,50 @@ main {
 
 /* Page principale */
 
-.carréMercure{
+.carreMercure{
     border-style : solid;
-    background: linear-gradient(to right, #B9723F, #c94f04);
+    background: linear-gradient(to bottom, #B9723F, #c94f04);
     border-color : black;
     border-radius: 2vh;
-    width: 25vh;
-    height:40vh;
+    width: 225px;
+    height:350px;
     position: absolute;
-    top: 20vh;
+    top: 10vh;
     left: 20vh;
+
+
+
+.carreVenus{
+    border-style : solid;
+    background: linear-gradient(to bottom, #DE9542, #785124);
+    border-color : black;
+    border-radius: 2vh;
+    width: 225px;
+    height:350px;
+    position: absolute;
+    left: 40vh;
+
+
+.carreTerre{
+    border-style : solid;
+    background: linear-gradient(to bottom, #3E70DB, #213C75);
+    border-color : black;
+    border-radius: 2vh;
+    width: 225px;
+    height:350px;
+    position: absolute;
+    left: 40vh;
+
+.carreMars{
+    border-style : solid;
+    background: linear-gradient(to bottom, #F96F0C, #934107);
+    border-color : black;
+    border-radius: 2vh;
+    width: 225px;
+    height:350px;
+    position: absolute;
+    left: 40vh;
+
 
 
     
