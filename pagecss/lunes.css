@@ -95,7 +95,7 @@ main {
     position: absolute;
     left: 40vh;
 
-.carreJupiter{
+.carreLune{
     border-style : solid;
     background: linear-gradient(to bottom, #B49D9D, #4E4444);
     border-color : black;
@@ -107,9 +107,9 @@ main {
     left: 20vh;
 }
 
-.carreSaturne{
+.carreEurope{
     border-style : solid;
-    background: linear-gradient(to bottom, #D7DFCE, #757970);
+    background: linear-gradient(to bottom, #757970, #D7DFCE);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
@@ -118,9 +118,9 @@ main {
     left: 40vh;
 }
 
-.carreUranus{
+.carreEncelade{
     border-style : solid;
-    background: linear-gradient(to bottom, #10E8E8, #0B4E78);
+    background: linear-gradient(to bottom, #888888, #222222);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
@@ -129,9 +129,9 @@ main {
     left: 40vh;
 }
 
-.carreNeptune{
+.carreTriton{
     border-style : solid;
-    background: linear-gradient(to bottom, #4DDEFF, #082C63);
+    background: linear-gradient(to bottom, #757979, #D8DEDF);
     border-color : black;
     border-radius: 2vh;
     width: 225px;
@@ -139,6 +139,7 @@ main {
     position: absolute;
     left: 40vh;
 }
+
 
 
 img{
