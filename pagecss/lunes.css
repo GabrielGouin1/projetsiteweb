@@ -61,7 +61,38 @@ main {
     position: absolute;
     top: 10vh;
     left: 20vh;
+    
+
 }
+/* Titre */
+.carreGanymede h2 {
+    position: absolute;
+    left: 1vh;
+    color: white;
+    font-family: "Polaris Space Font";
+    
+}
+
+/* Paragraphe */
+.carreGanymede p {
+    position: absolute;
+    top: 20vh;
+    left: 3vh;   
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: "Polaris Space Font";
+}
+
+img{
+    width:  100px;
+    height:  100px;
+    position: absolute;
+    top: 5vh;
+    right: 1vh;
+}
+
+
 
 .carreTitan{
     border-style : solid;
@@ -73,6 +104,26 @@ main {
     position: absolute;
     left: 40vh;
 }
+
+/* Titre */
+.carreTitan h2 {
+    position: absolute;
+    left: 2vh;
+    color: white;
+    font-family: "Polaris Space Font";
+}
+
+/* Paragraphe */
+.carreTitan p {
+    position: absolute;
+    top: 20vh;
+    left: 2vh;   
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: "Polaris Space Font";
+}
+
 
 
 .carreCalisto{
@@ -97,11 +148,6 @@ main {
     left: 40vh;
 }
 
-
-    
-    
-
-
 .carreLune{
     border-style : solid;
     background: linear-gradient(to bottom, #B49D9D, #4E4444);
@@ -110,9 +156,31 @@ main {
     width: 225px;
     height: 350px;
     position: absolute;
-    top: 50vh;
+    top: 70vh;
     left: 20vh;
+    
+    
 }
+
+/* Titre */
+.carreLune h2 {
+    position: absolute;
+    left: 2vh;
+    color: white;
+    font-family: "Polaris Space Font";
+}
+
+/* Paragraphe */
+.carreLune p {
+    position: absolute;
+    top: 20vh;
+    left: 2vh;   
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: "Polaris Space Font";
+}
+
 
 .carreEurope{
     border-style : solid;
@@ -149,16 +217,6 @@ main {
 
 
 
-img{
-    width:  100px;
-    height:  100px;
-    position: absolute;
-    top: 5vh;
-    right: 1vh;
-}
-
-
-
     
     
 
@@ -182,3 +240,7 @@ footer #topBtn {
 footer #topBtn:hover {
     background-color: #eee;
 }
+
+
+
+
