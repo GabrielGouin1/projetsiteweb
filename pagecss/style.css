@@ -1,141 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     margin: 0;
 }
 
 body {
-    color: ##1B125B;
-    background-color: ##1B125B;
+    background-image: url("paysage-nocturne-magique-avec-des-lumieres-scintillantes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-main {
-      flex: 1;
-}
-
 /*header*/
 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
     background-color: #090c52;
-    padding: 1rem 2rem;}
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
 
-.navbar .accueil {
+.accueil {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 3px;
+}
+
+.accueil img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .accueil a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    position: relative;
-    top: 0.5rem;
-    left: 2rem;
 }
 
 .menu {
     display: flex;
-    gap: 2rem;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: 0px;
 }
 
 .menu-item {
-    position: relative;
-    left: 75rem;
-    bottom: 0.5rem;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 4px 8px;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 .menu-item:hover {
-    color: #00bfff; 
+    background-color: #00bfff;
+    box-shadow:
+        0 0 5px #0ff,
+        0 0 15px #0ff,
+        0 0 30px #0ff;
 }
 
-/* Page principale */
+/*main*/
 
-.carréprincipale {
-    border-style : solid;
-    border-color : black;
-    margin:  235px;
-    width: 800px;
-    height: 500px;
-
-.carréprincipale2 {
-    border-style : solid;
-    border-color : black;
-    background-color: #303366;
-    margin:  50px;
-    width:  700px;
-    height: 400px;
-}
-    
-p{
-    color: #FFFFFF;
-    text-align: center;
-    text: ;
-
+main {
+    flex: 1;
+    padding-top: 100px;
 }
 
-img{
-    margin: -53px;
-    width: 800px;
-    height: 500px;
-    opacity:0.3;
-}
-    
-
-.carrésecondaire {
-    border-style : solid;
-    border-color : black;
-    width: 200px;
-    height: 100px;
+.carre-principale {
+    background-image: url("Galaxie.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.carre-principale-texte {
+    border: 2px solid black;
+    background: linear-gradient(to bottom right, purple, darkblue);
+    width: 90%;
+    padding: 20px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.carre-principale h2 {
+    color: white;
+    font-size: clamp(24px, 4vw, 48px);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    font-size: clamp(16px, 2vw, 24px);
+    text-align: center;
+}
+
+/*animation pour box shadow*/
+
+@keyframes shadows {
+  0% {
+    box-shadow: 0 0 10px #48abe0;
+  }
+  50% {
+    box-shadow: 0 0 20px blueviolet;
+  }
+  100% {
+    box-shadow: 0 0 10px #48abe0;
+  }
+}
+/* petit carres */
+.carre-secondaire {
+    border-style: solid;
+    border-color: black;
+    width: 50vh;
+    height: 21vh;
+    display: flex;
+    flex-direction: column;   /* ✅ empile verticalement */
+    align-items: center;      /* ✅ centre horizontalement */
+    justify-content: center;  /* ✅ centre verticalement */
     border-radius: 15px;
     border-width: thick;
     background-color: #303366;
-    position:relative;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 10px #48abe0;
+    animation: shadows 1.5s infinite;
+    gap: 30px;               /* ✅ espace entre h2 et p */
 }
 
-.carrésecondaire p{
+.carre-secondaire h2 {
+    margin: 0;
     color: white;
-    font-size: 1em;
-    position:absolute;
-    top: 25px;
-    margin-left: 8px;
+    font-size: 1.5em;
 }
 
-.carrésecondaire h2{
+.carre-secondaire p {
+    margin: 0;
     color: white;
-    font-size: 0.75em;
-    vertical-align: top;
+    font-size: 1.1em;
 }
 
-
-.ensembleminicarré {
+.carre-secondaires {
     display: flex;
-    gap:20px;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
+    margin: 50px auto;
+    width: 90%;
 }
 
-/* bas de page */
+/*footer*/
 
 footer {
     background: #090c52;
-    padding: 1rem 2rem;
+    height: 50px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
-
-footer #topBtn {
-    display: inline;
-    transition: color 0.3s ease;
-    background-color: #585cd7;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 10px;
-}
-
-footer #topBtn:hover {
-    background-color: #eee;
-}
-
-
-
-
