@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: #090C52;
+    background-color: #090C52;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+      flex: 1;
+}
+
+/*header*/
+
+.navbar {
+    background-color: #090c52;
+    padding: 1rem 2rem;}
+
+.navbar .accueil {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-item {
+    position: relative;
+    left: 75rem;
+    bottom: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+    color: #00bfff; 
+}
+
+/* Page principale */
+
+.lunesensemble {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+    justify-content: center;
+    margin: 2vh auto;
+    width: 90%;
+}
+
+.lunes {
+    border-style: solid;
+    border-color: black;
+    width: 30vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;   /* ✅ empile verticalement */
+    align-items: center;      /* ✅ centre horizontalement */
+    justify-content: center;  /* ✅ centre verticalement */
+    border-radius: 15px;
+    border-width: thick;
+    background-color: #303366;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 10px #48abe0;
+    animation: shadows 1.5s infinite;
+    gap: 30px;               /* ✅ espace entre h2 et p */
+}
+
+.lunes img {
+    width:  12vh;
+    height:  12vh;
+    position: absolute;
+    top: 8vh;
+    right: 1vh;
+}
+
+.lunes p {
+    position: absolute;
+    top: 20vh;
+    left: 3vh;   
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: "Polaris Space Font";
+}
+
+.lunes h2 {
+    position: absolute;
+    left: 1vh;
+    top: 1vh;
+    color: white;
+    font-family: "Polaris Space Font";
+    font-size: 3rem;
+    
+}
+
+
+#carreGanymede{
+     border-style : solid;
+    background: linear-gradient(to bottom, #766E69, #DCCEC4);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreTitan{
+    border-style : solid;
+    background: linear-gradient(to bottom, #1EC843, #0F6221);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreCalisto{
+     border-style : solid;
+    background: linear-gradient(to bottom, #838DA1, #30333B);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreIo{
+     border-style : solid;
+    background: linear-gradient(to bottom, #CDA710, #675408);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreLune{
+     border-style : solid;
+    background: linear-gradient(to bottom, #B49D9D, #4E4444);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreEurope{
+     border-style : solid;
+    background: linear-gradient(to bottom, #757970, #D7DFCE);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreEncelade{
+     border-style : solid;
+    background: linear-gradient(to bottom, #888888, #222222);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+#carreTriton{
+     border-style : solid;
+    background: linear-gradient(to bottom, #757979, #D8DEDF);
+    border-color : black;
+    border-radius: 2vh;
+}
+
+
+
+    
+    
+
+
+/* bas de page */
+
+footer {
+    background: #090c52;
+    padding: 1rem 2rem;
+}
+
+footer #topBtn {
+    display: inline;
+    transition: color 0.3s ease;
+    background-color: #585cd7;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+footer #topBtn:hover {
+    background-color: #eee;
+}
+
+
+
+
