@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siteplanete</title>
+    <link rel="icon" href="pagecss/favicon.ico">
+    <link rel="stylesheet" href="pagecss/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="accueil">
+      <img src="pagecss/favicon.ico" /><a>Accueil</a>
+    </div>
+
+    <nav class="menu">
+      <a href="#" class="menu-item">Planètes</a>
+      <a href="#" class="menu-item">Lunes</a>
+      <a href="#" class="menu-item">Page3</a>
+    </nav>
+  </header>
+
+  <main class="body-carres">
+
+    <section class="carre-principale">s
+
+      <div class="carre-principale-texte">
+        <h2>BIENVENUE SUR PLANETARIA</h2>
+        <h3>Un site complet, qui vous apprendra plein de choses sur notre système solaire !</h3>
+      </div>
+    </section>
+
+
+ <section class="video-section">
+  <h2>Vidéo sur le système solaire</h2>
+  <video src="systemesolaire.mp4" controls preload="metadata">
+  <track src="pagecss/soustitres.vtt" kind="subtitles" srclang="fr" label="Français" default>
+ </video>
+</section>
+
+
+
+      <div class="carre-secondaires">
+
+        <div class="carre-secondaire">
+          <h2>Nombre de planètes</h2>
+          <p>8 planètes</p>
+        </div>
+
+        <div class="carre-secondaire">
+          <h2>Nombre de lunes</h2>
+          <p>+220 lunes</p>
+        </div>
+
+        <div class="carre-secondaire">
+          <h2>Âge</h2>
+          <p>4,6 × 10⁹ ans</p>
+        </div>
+
+        <div class="carre-secondaire">
+          <h2>Système le plus proche</h2>
+          <p>Proxima Centauri</p>
+        </div>
+
+      </div>
+
+  </main>
+
+ 
+ <section class="formulaire">
+<h2>Contactez-nous</h2>
+  <form action="mailto:jaiunmail@example.com" method="post" enctype="text/plain">
+    
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+    <label for="sujet">Sujet :</label>
+    <select id="sujet" name="sujet" required>
+      <option value="">-- Choisissez un sujet --</option>
+      <option value="planetes">Planètes</option>
+      <option value="lunes">Lunes</option>
+      <option value="autre">Autre</option>
+    </select>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+
+
+ <footer class="footer">Tout droits réservés
+  </footer>
+
+
+</body>
+
+</html>
