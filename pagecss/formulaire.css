@@ -62,7 +62,7 @@ body {
   font-size: 1.8em;
 }
 
-/* Style du lecteur vidéo */
+
 .video-section video {
   width: 100%;                   
   height: auto;                  
@@ -70,7 +70,6 @@ body {
   box-shadow: 0 0 15px #0ff;
 }
 
-/* Responsive : vidéo toujours adaptée */
 @media (max-width: 600px) {
   .video-section {
     padding: 15px;
