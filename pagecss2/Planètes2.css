@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* background-image: url("paysage-nocturne-magique-avec-des-lumieres-scintillantes.jpg"); */
+    background: #09227d;
+    background: linear-gradient(30deg, rgba(9, 34, 125, 1) 0%, rgba(94, 55, 145, 1) 50%, rgba(167, 128, 224, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*header*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #02056a;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 10px 3px 9px black;
+}
+
+.accueil {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.accueil h1 {
+    font-size: 1.3rem;
+    padding-top: 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+    font-size: 1.3rem;
+    padding-right: 10px;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border-radius: 10px; */
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #00bfff;
+    box-shadow:
+        0 0 5px #0ff,
+        0 0 15px #0ff,
+        0 0 30px #0ff;
+}
+
+/* Page principale */
+
+main {
+    flex: 1;
+    padding-bottom: 30px;
+}
+
+.planètesensemble {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vh;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    padding-top: 90px;
+}
+
+.planètes {
+    border-style: solid;
+    border-color: black;
+    width: 30vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;  
+    border-radius: 2vh;
+    border-width: thick;
+    background-color: #303366;
+    position: relative;
+    overflow: hidden;
+    animation: shadows 1.5s infinite;
+    gap: 30px;     
+    border-style : solid;
+}
+
+.planètes img {
+    width:  12vh;
+    height:  12vh;
+    position: absolute;
+    top: 8vh;
+    right: 1vh;
+}
+
+.planètes p {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;   
+    text-align: center;
+    color: white;
+    font-family: "Polaris Space Font";
+    font-size: clamp(0.3rem, 1.5vh, 1.5rem);
+}
+
+.planètes h2 {
+    position: absolute;
+    left: 1vh;
+    top: -1.5vh;
+    color: white;
+    font-family: "Polaris Space Font";
+    font-size: clamp(0.5rem, 3.5vh, 5rem);
+}
+
+
+/* Page principale */
+
+#carreMercure{
+    background: linear-gradient(to bottom, #B9723F, #c94f04);
+    box-shadow: 0px 0px 20px 10px #B9723F;
+}
+
+#carreVenus{
+    background: linear-gradient(to bottom, #DE9542, #785124);
+    box-shadow: 0px 0px 20px 10px #DE9542;
+}
+
+#carreTerre{
+    background: linear-gradient(to bottom, #3E70DB, #213C75);
+    box-shadow: 0px 0px 20px 10px #3E70DB;
+    
+}
+
+#carreMars{
+    background: linear-gradient(to bottom, #F96F0C, #934107);
+    box-shadow: 0px 0px 20px 10px #F96F0C;
+}
+
+#carreJupiter{
+    background: linear-gradient(to bottom, #B49D9D, #4E4444);
+    box-shadow: 0px 0px 20px 10px #B49D9D;
+}
+
+#carreSaturne{
+    background: linear-gradient(to bottom, #D7DFCE, #757970);
+    box-shadow: 0px 0px 20px 10px #D7DFCE;
+}
+
+#carreUranus{
+    background: linear-gradient(to bottom, #10E8E8, #0B4E78);
+    box-shadow: 0px 0px 20px 10px #10E8E8;
+}
+
+#carreNeptune{
+    background: linear-gradient(to bottom, #4DDEFF, #082C63);
+    box-shadow: 0px 0px 20px 10px #4DDEFF;
+}
+
+/*footer*/
+
+footer {
+    background: #090c52;
+    height: 50px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .accueil {
+            flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .planètesensemble {
+        margin-top: 130px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+}
