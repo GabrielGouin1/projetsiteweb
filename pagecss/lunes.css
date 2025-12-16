@@ -89,17 +89,18 @@ main {
     width: 30vh;
     height: 40vh;
     display: flex;
-    flex-direction: column;   /* ✅ empile verticalement */
-    align-items: center;      /* ✅ centre horizontalement */
-    justify-content: center;  /* ✅ centre verticalement */
-    border-radius: 15px;
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;  
+    border-radius: 2vh;
     border-width: thick;
     background-color: #303366;
     position: relative;
     overflow: hidden;
     box-shadow: 0px 0px 20px 10px #48abe0;
     animation: shadows 1.5s infinite;
-    gap: 30px;               /* ✅ espace entre h2 et p */
+    gap: 30px;     
+    border-style : solid;         
 }
 
 .lunes img {
@@ -131,59 +132,36 @@ main {
 
 
 #carreGanymede{
-     border-style : solid;
     background: linear-gradient(to bottom, #766E69, #DCCEC4);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreTitan{
-    border-style : solid;
     background: linear-gradient(to bottom, #1EC843, #0F6221);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreCalisto{
-     border-style : solid;
     background: linear-gradient(to bottom, #838DA1, #30333B);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreIo{
-     border-style : solid;
     background: linear-gradient(to bottom, #CDA710, #675408);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreLune{
-     border-style : solid;
     background: linear-gradient(to bottom, #B49D9D, #4E4444);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreEurope{
-     border-style : solid;
     background: linear-gradient(to bottom, #757970, #D7DFCE);
-    border-color : black;
-    border-radius: 2vh;
+
 }
 
 #carreEncelade{
-     border-style : solid;
     background: linear-gradient(to bottom, #888888, #222222);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 #carreTriton{
-     border-style : solid;
     background: linear-gradient(to bottom, #757979, #D8DEDF);
-    border-color : black;
-    border-radius: 2vh;
 }
 
 
