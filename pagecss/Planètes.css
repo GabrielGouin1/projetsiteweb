@@ -87,7 +87,7 @@ main {
     flex-wrap: wrap;
     gap: 10vh;
     justify-content: center;
-    margin: 2vh auto;
+    margin: auto;
     width: 90%;
     padding-top: 90px;
 }
