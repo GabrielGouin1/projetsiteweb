@@ -113,11 +113,11 @@ main {
 
 .lunes p {
     position: absolute;
-    top: 20vh;
-    left: 3vh;   
+    bottom: 1vh;
+    left: 1vh;   
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Polaris Space Font";
 }
 
@@ -133,35 +133,44 @@ main {
 
 #carreGanymede{
     background: linear-gradient(to bottom, #766E69, #DCCEC4);
+    box-shadow: 0px 0px 20px 10px #766E69;
 }
 
 #carreTitan{
     background: linear-gradient(to bottom, #1EC843, #0F6221);
+    box-shadow: 0px 0px 20px 10px #1EC843;
+    
 }
 
 #carreCalisto{
     background: linear-gradient(to bottom, #838DA1, #30333B);
+    box-shadow: 0px 0px 20px 10px #838DA1;
 }
 
 #carreIo{
     background: linear-gradient(to bottom, #CDA710, #675408);
+    box-shadow: 0px 0px 20px 10px #CDA710;
 }
 
 #carreLune{
     background: linear-gradient(to bottom, #B49D9D, #4E4444);
+    box-shadow: 0px 0px 20px 10px #B49D9D;
 }
 
 #carreEurope{
     background: linear-gradient(to bottom, #757970, #D7DFCE);
+    box-shadow: 0px 0px 20px 10px #757970;
 
 }
 
 #carreEncelade{
     background: linear-gradient(to bottom, #888888, #222222);
+    box-shadow: 0px 0px 20px 10px #888888;
 }
 
 #carreTriton{
     background: linear-gradient(to bottom, #757979, #D8DEDF);
+    box-shadow: 0px 0px 20px 10px #757979;
 }
 
 
@@ -189,10 +198,3 @@ footer #topBtn {
 footer #topBtn:hover {
     background-color: #eee;
 }
-
-
-
-
-
-
-
