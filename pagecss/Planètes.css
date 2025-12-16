@@ -1,17 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     margin: 0;
 }
 
 body {
-    background-color: #090C52;
+    /* background-image: url("paysage-nocturne-magique-avec-des-lumieres-scintillantes.jpg"); */
+    background: #09227d;
+    background: linear-gradient(30deg, rgba(9, 34, 125, 1) 0%, rgba(94, 55, 145, 1) 50%, rgba(167, 128, 224, 1) 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-}
-
-main {
-      flex: 1;
 }
 
 /*header*/
@@ -20,38 +25,35 @@ main {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: #090c52;
+    background-color: #02056a;
     display: flex;
-    align-items: center;
-    padding: 0 20px;
+    justify-content: space-between;
     z-index: 1000;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 10px 3px 9px black;
 }
 
 .accueil {
     display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-left: 3px;
-}
-
-.accueil img {
-    width: 40px;
-    height: 40px;
-}
-
-.navbar .accueil a {
+    gap: 15px;
     color: white;
-    text-decoration: none;
     font-weight: bold;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.accueil h1 {
+    font-size: 1.3rem;
+    padding-top: 0px;
 }
 
 .menu {
     display: flex;
     gap: 5px;
-    margin-left: auto;
-    margin-right: 0px;
+    font-size: 1.3rem;
+    padding-right: 10px;
 }
 
 .menu-item {
@@ -59,7 +61,9 @@ main {
     text-decoration: none;
     font-weight: bold;
     padding: 4px 8px;
-    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border-radius: 10px; */
     transition: 0.3s;
 }
 
@@ -73,6 +77,11 @@ main {
 
 /* Page principale */
 
+main {
+    flex: 1;
+    padding-bottom: 30px;
+}
+
 .planètesensemble {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +89,7 @@ main {
     justify-content: center;
     margin: 2vh auto;
     width: 90%;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .planètes {
@@ -97,9 +106,8 @@ main {
     background-color: #303366;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 0px 20px 10px #48abe0;
     animation: shadows 1.5s infinite;
-    gap: 30px;         
+    gap: 30px;     
     border-style : solid;
 }
 
@@ -121,7 +129,6 @@ main {
     font-size: clamp(0.3rem, 1.5vh, 1.5rem);
 }
 
-
 .planètes h2 {
     position: absolute;
     left: 1vh;
@@ -131,12 +138,12 @@ main {
     font-size: clamp(0.5rem, 3.5vh, 5rem);
 }
 
+
 /* Page principale */
 
 #carreMercure{
     background: linear-gradient(to bottom, #B9723F, #c94f04);
     box-shadow: 0px 0px 20px 10px #B9723F;
-
 }
 
 #carreVenus{
@@ -175,23 +182,37 @@ main {
     box-shadow: 0px 0px 20px 10px #4DDEFF;
 }
 
-
-/* bas de page */
+/*footer*/
 
 footer {
     background: #090c52;
-    padding: 1rem 2rem;
+    height: 50px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 
-footer #topBtn {
-    display: inline;
-    transition: color 0.3s ease;
-    background-color: #585cd7;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 10px;
-}
 
-footer #topBtn:hover {
-    background-color: #eee;
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .accueil {
+            flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .planètesensemble {
+        margin-top: 130px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
 }
