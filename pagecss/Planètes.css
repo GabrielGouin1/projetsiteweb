@@ -113,11 +113,11 @@ main {
 
 .planètes p {
     position: absolute;
-    top: 20vh;
-    left: 3vh;   
+    bottom: 1vh;
+    left: 1vh;   
     text-align: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Polaris Space Font";
 }
 
@@ -135,35 +135,46 @@ main {
 
 #carreMercure{
     background: linear-gradient(to bottom, #B9723F, #c94f04);
+    box-shadow: 0px 0px 20px 10px #B9723F;
+
 }
 
 #carreVenus{
     background: linear-gradient(to bottom, #DE9542, #785124);
+    box-shadow: 0px 0px 20px 10px #DE9542;
 }
 
 #carreTerre{
     background: linear-gradient(to bottom, #3E70DB, #213C75);
+    box-shadow: 0px 0px 20px 10px #3E70DB;
+    
 }
 
 #carreMars{
     background: linear-gradient(to bottom, #F96F0C, #934107);
+    box-shadow: 0px 0px 20px 10px #F96F0C;
 }
 
 #carreJupiter{
     background: linear-gradient(to bottom, #B49D9D, #4E4444);
+    box-shadow: 0px 0px 20px 10px #B49D9D;
 }
 
 #carreSaturne{
     background: linear-gradient(to bottom, #D7DFCE, #757970);
+    box-shadow: 0px 0px 20px 10px #D7DFCE;
 }
 
 #carreUranus{
     background: linear-gradient(to bottom, #10E8E8, #0B4E78);
+    box-shadow: 0px 0px 20px 10px #10E8E8;
 }
 
 #carreNeptune{
     background: linear-gradient(to bottom, #4DDEFF, #082C63);
+    box-shadow: 0px 0px 20px 10px #4DDEFF;
 }
+
 
 /* bas de page */
 
