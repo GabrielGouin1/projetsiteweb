@@ -110,7 +110,7 @@ main {
 .carre-principale-texte {
     display: flex;
     flex-direction: column;
-    gap: 10vh
+    gap: 5vh
 }
 
 .carre-principale h2 {
@@ -290,10 +290,6 @@ footer {
     .carre-principale {
         margin-top: 130px;
         flex-direction: column;
-    }
-
-    .carre-principale-texte{
-        height: 220px;
     }
 
     .carre-principale h2 {
