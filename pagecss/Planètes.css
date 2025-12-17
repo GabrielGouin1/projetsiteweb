@@ -82,7 +82,7 @@ main {
     padding-bottom: 30px;
 }
 
-.planètesensemble {
+.planetesensemble {
     display: flex;
     flex-wrap: wrap;
     gap: 10vh;
@@ -92,7 +92,7 @@ main {
     padding-top: 90px;
 }
 
-.planètes {
+.planetes {
     border-style: solid;
     border-color: black;
     width: 30vh;
@@ -111,7 +111,7 @@ main {
     border-style : solid;
 }
 
-.planètes img {
+.planetes img {
     width:  12vh;
     height:  12vh;
     position: absolute;
@@ -119,7 +119,7 @@ main {
     right: 1vh;
 }
 
-.planètes p {
+.planetes p {
     position: absolute;
     bottom: 1vh;
     left: 1vh;   
@@ -133,7 +133,7 @@ main {
                   1px  1px 0 black;
 }
 
-.planètes h2 {
+.planetes h2 {
     position: absolute;
     left: 1vh;
     top: -1.5vh;
@@ -212,7 +212,7 @@ footer {
         gap: 0px;
     }
 
-    .planètesensemble {
+    .planetesensemble {
         margin-top: 130px;
         flex-direction: column;
         align-items: center;
