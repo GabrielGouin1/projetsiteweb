@@ -95,10 +95,10 @@ main {
 .planetes {
     border-style: solid;
     border-color: black;
-    width: 400px;
-    height: clamp(100px, 30vh, 370px);
+    width: clamp(300px, 20vw, 700px);
+    height: clamp(100px, 33vh, 500px);
     display: flex;
-    /* flex-direction: column;    */
+    flex-direction: column;
     align-items: center;      
     justify-content: center;  
     border-radius: 15px;
@@ -115,7 +115,7 @@ main {
     width: 40%;
     aspect-ratio: auto;
     position: absolute;
-    top: 55px;
+    top: 75px;
     right: 6px;
 }
 
@@ -124,7 +124,6 @@ main {
     position: absolute;
     bottom: 7px;
     left: 7px;   
-    text-align: center;
     color: white;
     font-family: "Polaris Space Font";
     font-size: 1.2rem;
@@ -135,12 +134,10 @@ main {
 }
 
 .planetes h2 {
-    position: absolute;
-    left: 7px;
-    top: -10.5px;
+    margin-bottom: clamp(35px, 30vh, 500px);
     color: white;
     font-family: "Polaris Space Font";
-    font-size: clamp(0.5rem, 26.5px, 5rem);
+    font-size: 3rem;
 }
 
 
