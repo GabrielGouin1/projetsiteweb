@@ -95,10 +95,10 @@ main {
 .planetes {
     border-style: solid;
     border-color: black;
-    width: 220px;
-    height: 295px;
+    width: 400px;
+    height: clamp(100px, 30vh, 370px);
     display: flex;
-    flex-direction: column;   
+    /* flex-direction: column;    */
     align-items: center;      
     justify-content: center;  
     border-radius: 15px;
@@ -107,17 +107,18 @@ main {
     position: relative;
     overflow: hidden;
     animation: shadows 1.5s infinite;
-    gap: 30px;     
+    gap: 20px;     
     border-style : solid;
 }
 
 .planetes img {
-    height:  90px;
-    width:  90px;
+    width: 40%;
+    aspect-ratio: auto;
     position: absolute;
     top: 55px;
     right: 6px;
 }
+
 
 .planetes p {
     position: absolute;
@@ -126,7 +127,7 @@ main {
     text-align: center;
     color: white;
     font-family: "Polaris Space Font";
-    font-size: clamp(0.5rem, 12px, 1.5rem);
+    font-size: 1.2rem;
     text-shadow: -1px -1px 0 black,
                   1px -1px 0 black,
                  -1px  1px 0 black,
@@ -177,8 +178,8 @@ main {
 }
 
 #carreSaturne img{
-    height: 80px;
-    width: 160px;
+    width: 70%;
+    aspect-ratio: auto;
 }
 
 #carreUranus{
@@ -224,9 +225,12 @@ footer {
 
     .planetesensemble {
         margin-top: 130px;
-        flex-direction: column;
         align-items: center;
         
+    }
+
+    .planetes p {
+        font-size: 1rem;
     }
 
 }
